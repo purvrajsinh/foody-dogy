@@ -1,0 +1,165 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+#title{
+   
+    background-color: #ff4c68;
+}
+.t1{
+    padding-top: 20%;
+    font-family: Segoe UI Black;
+}
+
+h1{
+    font-family: Candara Light;
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 60px;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+   
+}
+
+
+
+.P1{
+    
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 20%;
+    z-index: 0;
+
+}
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    padding:5%;
+    text-align: center;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.icone{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icone:hover{
+    color: #ff4c68;
+
+}
+
+#testimonials{
+    padding: 7% 10%;
+    background-color:#ff4c68 ;
+    text-align: center;    
+}
+
+#t2{
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 42px;
+    padding: 10% 15% 1%;
+}
+
+.smalld{
+    width:10%;
+    border-radius: 100%;
+}
+
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.pimg{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+.caroussel-item{
+    padding: 8% 20%;
+}
+
+.carousel-indicators{
+    position: absolute;
+    top: 109%;
+}
+
+.aa{
+ text-align: center;
+padding: 2% 5%;
+margin: 10px;
+}
+ 
+.ab{
+    padding: 3% 15%;
+}
+
+#features{
+    background-color:rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .P1{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.ndiv{
+    background-color:#ff4c68 ;
+    text-align: center;
+    font-size: larger;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding: 0% 10% ;
+}
+
+.h31{
+    font-family: Montserrat Black;
+    color: white;
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom:70px
+
+}
+button{
+    cursor: pointer;
+    margin-left: 15px;
+margin-right: 5px;
+margin-top: 30px;
+margin-bottom: 120px;
+}
+
+#footer{
+    padding: 10% 20%;
+    text-align: center;
+}
+
+.si{
+    margin: 10px 20px;
+}
+
